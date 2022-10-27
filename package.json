@@ -1,0 +1,24 @@
+{
+  "name": "m-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "m-build": "./bin/m-build.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "commander": "^9.4.1",
+    "detect-port": "^1.5.1",
+    "fast-glob": "^3.2.12",
+    "inquirer": "^8.2.4",
+    "npmlog": "^7.0.0",
+    "semver": "^7.3.8"
+  }
+}

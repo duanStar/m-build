@@ -1,0 +1,5 @@
+{
+  "entry": "src/index.js",
+  "plugins": ["m-build-test"],
+  "hooks": [["start", "start-hook"]]
+}
