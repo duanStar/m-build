@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "m-build start -p 8080 -d -c ./m.config.json"
+    "dev": "m-build start -p 8080 -d"
   },
   "keywords": [],
   "author": "",
