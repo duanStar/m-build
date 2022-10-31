@@ -1,19 +1,22 @@
 module.exports = {
-  entry: "src/index.js",
-  plugins: ["m-build-test"],
-  output: "./dist",
-  plugins: ["m-build-test", function () {}, ["m-build-test", { a: 1 }]],
+  entry: {
+    index: ["./src/index.js"],
+  },
+  output: {
+    filename: "js/[name].js",
+    path: "./dist",
+  },
+  plugins: [
+    function (api) {
+      const { chainWebpack } = api;
+      const config = chainWebpack();
+    },
+  ],
   hooks: [
     [
       "start",
       function (context) {
         console.log("start");
-      },
-    ],
-    [
-      "configResolved",
-      function () {
-        console.log("configResolved");
       },
     ],
   ],
