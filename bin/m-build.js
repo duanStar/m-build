@@ -42,6 +42,8 @@ const MIN_NODE_VERSION = "8.9.0";
     // 注册 build 命令
     program
       .command("build")
+      .option("-c --config <config>", "配置文件路径")
+      .option("--custom-webpack-path <customWebpackPath>", "自定义webpack路径")
       .description("build project by m-build")
       .allowUnknownOption()
       .action(build);

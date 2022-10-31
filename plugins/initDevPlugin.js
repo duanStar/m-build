@@ -83,4 +83,6 @@ module.exports = function (api, params = {}) {
   config.optimization.usedExports(true);
   // watch
   config.watch(true);
+  // devtool
+  config.devtool("source-map");
 };

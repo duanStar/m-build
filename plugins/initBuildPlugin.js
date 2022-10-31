@@ -107,6 +107,6 @@ module.exports = function (api, params = {}) {
   config.optimization
     .minimizer("CssMinimizerPlugin")
     .use(CssMinimizerPlugin, []);
-  // watch
-  config.watch(true);
+  // devtool
+  config.devtool("nosources-source-map");
 };
