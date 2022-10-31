@@ -14,12 +14,20 @@
   "license": "ISC",
   "dependencies": {
     "chokidar": "^3.5.3",
+    "clean-webpack-plugin": "^4.0.0",
     "commander": "^9.4.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.2.2",
     "detect-port": "^1.5.1",
     "fast-glob": "^3.2.12",
+    "html-webpack-plugin": "^5.5.0",
     "inquirer": "^8.2.4",
+    "mini-css-extract-plugin": "^2.6.1",
     "npmlog": "^7.0.0",
     "semver": "^7.3.8",
-    "webpack-chain": "^6.5.1"
+    "webpack": "^5.74.0",
+    "webpack-chain": "^6.5.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }
