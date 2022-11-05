@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "m-build start -p 8080",
+    "dev": "m-build start -p 8080 --stop-build",
     "build": "m-build build"
   },
   "keywords": [],
