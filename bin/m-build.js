@@ -45,6 +45,7 @@ const MIN_NODE_VERSION = "8.9.0";
       .command("build")
       .option("-c --config <config>", "配置文件路径")
       .option("--custom-webpack-path <customWebpackPath>", "自定义webpack路径")
+      .option("--stop-build", "停止构建")
       .description("build project by m-build")
       .allowUnknownOption()
       .action(build);

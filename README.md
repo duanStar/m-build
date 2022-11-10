@@ -32,13 +32,14 @@ Options:
   
   ## build
   ```shell
-  Usage: m-build build [options]
+Usage: m-build build [options]
 
 build project by m-build
 
 Options:
   -c --config <config>                       配置文件路径
   --custom-webpack-path <customWebpackPath>  自定义webpack路径
+  --stop-build                               停止构建
   -h, --help                                 display help for command
   ```
   
